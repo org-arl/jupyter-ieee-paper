@@ -26,3 +26,7 @@ The example template has the following additional dependencies:
 - `phantomjs`
 
 These allow high quality `bokeh` plots to be included in your paper. However, feel free to use `matplotlib` instead, if you prefer.
+
+## Credits
+
+The `ieee.tplx` template is adapted from work by [Julius Schulz and Alexander Schlaich](https://github.com/schlaicha/jupyter-publication-scripts).
