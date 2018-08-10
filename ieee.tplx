@@ -12,6 +12,12 @@
 \usepackage[noadjust]{cite}
 ((* endblock docclass *))
 
+((* block packages *))
+((( super() )))
+\usepackage{mathptmx}
+((( nb.metadata["latex_metadata"]["packages"] )))
+((* endblock packages *))
+
 % Author and Title from metadata
 ((* block maketitle *))
 \renewcommand{\figurename}{Figure}
